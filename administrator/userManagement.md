@@ -24,7 +24,7 @@ __LET OP__: Als gebruikers worden aangepast, heeft dit direct invloed op de admi
 dat je huidige account geen toegang meer heeft tot Communibase Client, dan kun je dit niet meer terug veranderen (omdat
 dat via Communibase Client moet gebeuren)!
 
-#### Een gebruiker toevoegen
+####<a class="anchor" name="toevoegen"> Een gebruiker toevoegen
 Als je een nieuwe gebruiker wilt toevoegen, dan is het handig om het volgende stappenplan te volgen:
 
 - Ga naar het tabblad "Gebruiker" in de Communibase Client administratie.

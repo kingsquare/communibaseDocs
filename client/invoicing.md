@@ -21,26 +21,26 @@ Deze aanvullende acties zijn [Definitief maken](#definitief) en [Crediteren](#cr
 
 ![Screenshot Actions Factuur](/assets/img/factuurActies.png)
 
-##### <a class="anchor" id="definitief"></a>Definitief maken
+#####<a class="anchor" name="definitief"></a> Definitief maken
 Een factuur zonder factuurnummer kan definitief worden gemaakt. Dit houdt in dat de factuur wordt voorzien van factuurnummer en
 daardoor niet meer veranderd of verwijderd kan worden. Zolang een factuur niet definitief is, kan deze als "proforma" worden
 beschouwd en is de factuur nog vrij aan te passen. Zodra een factuur definitief is, kan deze alleen ongedaan worden gemaakt
 middels een creditfactuur.
 
-##### <a class="anchor" id="crediteren"></a>Crediteren
+#####<a class="anchor" name="crediteren"></a> Crediteren
 Een definitieve factuur kan worden gecrediteerd en dit houdt in dat er een nieuwe factuur wordt opgesteld met daarin
 het factuurbedrag, maar dan negatief. Boekhoudkundig wordt het factuurbedrag daarmee 0 euro. De PDF van deze creditfactuur
 kan een gebruiker opsturen per e-mail naar de debiteur om aan te geven dat de originele factuur niet hoeft te worden voldaan.
 Ook kan er handmatig een e-mail gestuurd worden naar de debiteur door het factuur naar "Contact" te slepen in het Communilinks
 menu en de wizard te volgen.
 
-#### Facturatie wizard
+####<a class="anchor" name="wizard"></a> Facturatie wizard
 Zodra je meerdere facturen tegelijk wilt maken, is het veel werk om iedere keer een nieuwe factuur aan te maken.
 In dat geval kan er gebruik gemaakt worden van de [Drag and Drop techniek](/client/#dragAndDrop).
 De gebruiker kan de een groepslidmaatschap of evenement naar het veld "Factuur" slepen. Dit is echter mogelijk
 voor groepslidmaatschappen en evenementen. Voor beide entiteiten zal er een facturatie wizard verschijnen.
 
-##### Groepslidmaatschappen
+#####<a class="anchor" name="groepslidmaatschappen"></a> Groepslidmaatschappen
 Het is mogelijk om alle relevante lidmaatschappen óf een selectie aan lidmaatschappen te factureren. In het eerste geval
 kunt u gebruik maken van de knop "Alle groepsdeelnames factureren" onder het menu "Standaard actie". In het andere geval
 kunt u eerst de gewenste lidmaatschappen zoeken en selecteren en deze daarna slepen naar het Communilinks-paneel "Factuur".
@@ -71,7 +71,7 @@ Als alles correct is, kan er worden geklikt op "Opstellen". Dit houdt in dat de 
 administratie zal vragen of de factuur definitief is en of de debiteur een e-mail moet ontvangen. Als dit gedaan
 is, ben je klaar met het factureren van de groepslidmaatschappen.
 
-##### Evenement
+#####<a class="anchor" name="evenement"></a> Evenement
 Om deelnemers van evenementen op dezelfde manier te kunnen factureren, moet een evenement ook minstens één tarief en
 een deelnemer bevatten. Als dit niet het geval is, verschijnt er voor de gebruiker deze melding:
 

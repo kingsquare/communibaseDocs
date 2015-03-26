@@ -24,7 +24,7 @@ hierboven: rood). Dit paneel kan gebruikt worden om acties toe te passen op de v
 navigeren naar gerelateerde zaken in de administratie. Standaard is dit paneel inactief gemaakt en kan er niet op de
 knoppen gedrukt worden. Meer informatie hierover is te lezen onder de kop [Wat zijn Communilinks?](#communilinks).
 
-##### <a class="anchor" id="menuInhoud"></a>Wat staat er in het menu?
+#####<a class="anchor" name="menuInhoud"></a>Wat staat er in het menu?
 Er zijn een handvol knoppen en menu's in het het algemene menu, dit menu is hieronder zichtbaar.
 
 ![Screenshot main menu](/assets/img/mainMenu.png)
@@ -50,7 +50,7 @@ de breedte van een kolom uit het scherm loopt, kan dit een oplossing bieden. De 
 optie is bruikbaar indien je toegang hebt tot meerdere administraties in het systeem. Je kunt dan hiermee uitloggen
 en direct in een andere administratie inloggen. De laatste optie is "Applicatie verlaten" en hiermee logt een gebruiker uit.
 
-#### Zoeken en navigeren in overzichten
+####<a class="anchor" name="zoeken"></a> Zoeken en navigeren in overzichten
 Je kunt door alle documenten heen navigeren en ze bekijken of aanpassen. In een overzicht van documenten
 worden echter niet altijd alle documenten getoond! Meestal zijn slechts de eerste 40 zichtbaar en is de rest van de
 documenten verborgen. Rechts boven het overzicht staat genoteerd hoeveel documenten er getoond worden en hoeveel er
@@ -86,7 +86,7 @@ worden weergegeven, zoals in het voorbeeld hieronder.
 
 ![Screenshot delete filters](/assets/img/filtersWissen.png)
 
-#### <a class="anchor" id="communilinks"></a>Wat zijn Communilinks?
+####<a class="anchor" name="communilinks"></a> Wat zijn Communilinks?
 Het meest rechter paneel op het scherm heeft als titel "Communilinks". Communilinks maken het mogelijk om als een spin
 in een web tussen de onderdelen van een administratie te navigeren: je kunt bijvoorbeeld direct zien welke persoon hoort
 bij welk lidmaatschap en welke facturen hierbij horen!
@@ -108,7 +108,7 @@ Als alternatief kun je de persoon slepen naar het kopje 'Groepsdeelname' en ook 
 groepsdeelname-formulier weergegeven (of een wizard gestart indien het meerdere personen betreft). Meer informatie
 hierover onder de kop [Drag-and-drop](#dragAndDrop).
 
-#### </p><a class="anchor" id="entities"></a>Wat zijn entiteiten?
+####<a class="anchor" name="entities"></a> Wat zijn entiteiten?
 Een entiteit is een "document-soort". In de administratie zijn kenmerken opgeslagen van verschillende entiteiten.
 Aan de hand van deze eigenschappen kunnen nieuwe documenten worden aangemaakt of oude documenten worden aangepast.
 Zo is er bijvoorbeeld opgeslagen dat de entiteit "Persoon" een aantal eigenschappen bevat, zoals een voornaam,
@@ -117,7 +117,8 @@ een '@' teken moet bevatten of dat een telefoonnummer niet uit letters kan besta
 zichtbaar als tabblad in het centrale menu (Persoon, Organisatie, etc.). De entiteiten kunnen door de gebruiker worden
 aangepast. Meer hierover in [Entiteiten beheren](/administrator/entityManagement/).
 
-#### <a class="anchor" id="dragAndDrop"></a>Drag-and-drop
+
+####<a class="anchor" name="dragAndDrop"></a> Drag-and-drop
 Je kunt ervoor kiezen om gebruik te maken van de "Drag-and-drop techniek". Dit is een snelle en eenvoudige
 manier om een document te koppelen aan een ander document. Dit kun je doen door een of meerdere documenten te
 selecteren. Voor dit voorbeeld selecteren we bijvoorbeeld drie personen. Deze drie personen kunnen gesleept worden

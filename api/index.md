@@ -15,16 +15,14 @@ Wanneer u in het bezit bent een API sleutel kunt u de documentatie lezen welke v
 
 [https://api.communibase.nl/docs/](https://api.communibase.nl/docs/)
 
-Voorbeeldcode gebruik API
--------------------------
+####<a name="voorbeeldcode"> Voorbeeldcode gebruik API
 
 Voor PHP treft u dit hier: [https://github.com/kingsquare/communibase-connector-php](https://github.com/kingsquare/communibase-connector-php)
 
 Voor node.js treft u dit hier: [https://github.com/kingsquare/communibase-connector-js](https://github.com/kingsquare/communibase-connector-js)
 
 
-Veel gebruikte zoekopdrachten
------------------------------
+####<a name="zoekopdrachten"> Veel gebruikte zoekopdrachten
 
 __Actieve lidmaatschappen__
 

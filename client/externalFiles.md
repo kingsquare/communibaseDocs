@@ -25,7 +25,7 @@ deze manier geexporteerd worden zullen van het goede formaat zijn om het weer te
 aan gemaakt te worden. Het is dus raadzaam hier gebruik van te maken als je de informatie wilt wijzigen om deze daarna
 terug in het systeem in te lezen.
 
-#### Importeren
+####<a class="anchor" name="import"></a> Importeren
 Als je beschikt over een (technisch) .csv-bestand met gegevens voor de administratie, dan kun je gebruik maken
 van de importeer functie van de applicatie. Dit is te vinden bij het menu "Extern" boven het juiste overzicht.
 Vervolgens kan men klikken op "Importeer bestand" en kan het csv-bestand worden geselecteerd.
@@ -45,7 +45,7 @@ opgenomen in de administratie als nieuwe personen. Zodra er objecten met een "_i
 geen nieuwe documenten worden aangemaakt, maar zullen de bestaande documenten (met het desbetreffende "_id") worden
 aangepast.
 
-#### Speciale exports
+####<a class="anchor" name="speciaal"></a> Speciale exports
 Sommige document-overzichten hebben speciale export- en importfuncties. Zo kan er bij een evenementoverzicht een export
 worden gemaakt van deelnemers-informatie. Bij facturen is het mogelijk om speciaal voor bepaalde boekhoudpakketten een
 export op te stellen. Mocht de door u gewenste export- of import vorm er niet bij staan, neem dan contact op met

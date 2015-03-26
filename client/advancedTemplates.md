@@ -14,7 +14,7 @@ Bovenop de opmaak-taal HTML wordt gebruik gemaakt van de sjabloon-taal "Handleba
 is de basis-werking reeds besproken. Voor meer informatie over de inhoudelijke werking kunt u terecht op de website van het
 [Handlebars project](http://handlebarsjs.com/). Experimenteren met constructies kan via [een speciale site](http://tryhandlebarsjs.com/)
 
-#### Als-dan vergelijkingen
+####<a class="anchor" name="alsdan"> Als-dan vergelijkingen
 
 Eenvoudige als-dan controles kunt u doen via {{ "{{ #if " }}}}. Bekijk het volgende voorbeeld:
 
@@ -36,7 +36,7 @@ L.s.
 Bedenk dat de sjabloon-taal kijkt naar de engelse, technische benaming van velden. Welke velden beschikbaar zijn hangt
 af van de procedure waarin u het sjabloon gebruikt. Bekijk een van de bestaande voorbeelden voor meer informatie.
 
-#### Complexere Vergelijkingen
+####<a class="anchor" name="complex"> Complexere Vergelijkingen
 
 In bepaalde gevallen is het niet mogelijk om met eenvoudige vergelijkingen het gewenste resultaat te bereiken. In deze gevallen
 kan een uitgebreidere help-functie worden gebruikt welke in de Communibase Client beschikbaar is. Neem het volgende voorbeeld:
@@ -56,7 +56,7 @@ context de waarde "directDebit" bevat. Er is ook nog geavanceerder gebruik mogel
 Dit maakt het mogelijk om, bijvoorbeeld op een factuur, bij een totaalbedrag van meer dan 100 euro de melding
 "Deelbetaling is mogelijk" op de factuur op te nemen.
 
-##### Lijst operatoren
+#####<a class="anchor" name="lijst"> Lijst operatoren
 
 'eq' ( '==' )
 :  Dit is een `gelijk aan`-vergelijking. Dit is tevens de *standaard* vergelijking als er geen expliciete operator is meegegeven.
@@ -122,7 +122,7 @@ tekst wordt gebruikt zijn dan niet gelijk.
 'typeof'
 : Dit is een technisch type-vergelijking en alleen bedoeld voor meer geavanceerde toepassingen.
 
-#### Datumvelden
+####<a class="anchor" name="datum"> Datumvelden
 
 In Communibase beschrijft een datumveld een moment in de tijd. Dit is dus naast een datum ook een tijd, maar dit wordt
 in veel gevallen niet getoond. De presentatie is afhankelijk van de gewenste notatievorm. Datumnotatie kan in veel gevallen
@@ -141,7 +141,7 @@ kunt gebruik maken van de volgende notatie.
 Plaatst bijvoorbeeld in een sjabloon voor bijvoorbeeld een brief n.a.v. een lidmaatschap, de nederlandse notatie van de
 startdatum van een lidmaatschap. Alternatieve notatie is mogelijk als volgt:
 
-    Your membership started {{ "{{dateFormat startDate format='MMMM YYYY'" }}}}
+    Your membership started {{ "{{dateFormat startDate format='M Y'" }}}}
 
 
 Formaatcodes zijn als volgt te gebruiken:
@@ -204,7 +204,7 @@ Formaatcodes zijn als volgt te gebruiken:
       timestamp A UNIX timestamp (same as U)                                              1350024866
 
 
-#### Prijsvelden
+####<a class="anchor" name="prijs"> Prijsvelden
 
 Ook prijs-notatie kan afhankelijk zijn van factoren, zoals valuta. Ook hiervoor is een help-functie beschikbaar, deze
 kan als volgt gebruikt worden:
@@ -213,7 +213,7 @@ kan als volgt gebruikt worden:
 
 Maakt van een totaalbedrag van 100.1231 (technische aanduiding) de tekst € 100,12 .
 
-#### Briefpapier
+####<a class="anchor" name="briefpapier"> Briefpapier
 
 U kunt in Communibase briefpapier instellen voor facturen of andere PDF-documenten. Dit kunt u doen door in de broncode
 het gewenste briefpapier te vermelden in de broncode als onderdeel van de <body>-tag. Ergens aan het begin van uw sjabloon

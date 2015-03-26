@@ -27,7 +27,7 @@ prullenbak-icoon ('Verwijderen').
 Zodra een of meerdere objecten worden toegevoegd, bewerkt of gekopieerd, verschijnt er een nieuw scherm voor de gebruiker
 waarin het document (opnieuw) kan worden ingevuld. Hierbij moet wel rekening worden gehouden met validatie (zie hieronder).
 
-#### Validatie en gewijzigde velden
+####<a class="anchor" name="validatie"></a> Validatie en gewijzigde velden
 Validatie is een belangrijk aspect aan het opslaan van nieuwe of bewerkte documenten. Sommige zaken in een formulier moeten aan bepaalde eisen voldoen.
 Zo moet bijvoorbeeld een e-mail adres altijd een '@'-karakter bevatten. Indien uw invoer hier niet aan voldoen, verschijnt er een rode
 streep om het invoer-veld. Zo weet u dat de invoer hiervan dient te worden gecontroleerd.
@@ -43,7 +43,7 @@ aangepast. In het voorbeeld hieronder zijn de velden "Titel" en "Aanhef" gewijzi
 Het markeren van deze velden is handig voor bepaalde functionaliteiten. Een voorbeeld is dat wanneer een formulier wordt gesloten,
 er dan een waarschuwing op het scherm verschijnt of je zeker weet dat je deze wijzigingen wilt annuleren.
 
-#### Geschiedenis is per document
+####<a class="anchor" name="geschiedenis"></a> Geschiedenis is per document
 Elke keer dat een document wordt opgeslagen, wordt dit toegevoegd aan de geschiedenis van dit document. Als er dan een
 fout is gemaakt door een gebruiker, kan het document worden hersteld naar een eerdere versie (waarin de fout nog niet
 aanwezig was). Deze versies kunnen worden gevonden in het formulier van het document (bijvoorbeeld wanneer een
@@ -55,7 +55,7 @@ die hij/zij nodig heeft. Via de bovenstaande markeringen is te zien wat er preci
 
 Mocht een document verwijderd zijn dan is ook "terug te draaien". Zie hiervoor het onderdeel "prullenbak".
 
-#### Werking van documentboxen
+####<a class="anchor" name="boxen"></a> Werking van documentboxen
 In sommige formulieren kan een documentbox voorkomen. Dit zijn velden waarin een verwijzing wordt verwacht naar een
 ander document. In het geval van een debiteur kan het bijvoorbeeld een verwijzing zijn naar een persoon of bedrijf.
 Zodra de gebruiker de documentbox heeft geselecteerd, kan er een verwijzing worden toegevoegd. Dit kan op meerdere
@@ -72,7 +72,7 @@ de verwijzing toegevoegd.
 de documentbox. Het nieuwe document wordt dan opgeslagen in de administratie.
 ![Screenshot New Combobox](/assets/img/comboboxNieuw.png)
 
-#### Opslaan, verwijderen en prullenbak
+####<a class="anchor" name="acties"></a> Opslaan, verwijderen en prullenbak
 Zodra een nieuw of bewerkt document gevalideerd is, kan het worden opgeslagen door op de "Opslaan" knop rechtsonder
 in het scherm te drukken.
 
@@ -88,7 +88,7 @@ worden bezocht door te gaan naar het menu "Overzichten" en dan "Prullenbak"
 
 ![Screenshot Bin](/assets/img/prullenbak.png)
 
-#### <a class="anchor" id="bulk"></a>Wat is bulk bewerken en hoe gebruik ik het?
+####<a class="anchor" name="bulk"></a> Wat is bulk bewerken en hoe gebruik ik het?
 Als je meerdere objecten tegelijk wilt wijzigen, kun je de bulk bewerk functie gebruiken. Het werkt op bijna dezelfde wijze
 als de gewone bewerk-optie, behalve dan dat het formulier er anders uit ziet. In het formulier staan namelijk alleen de
 gegevens die in alle geselecteerde objecten hetzelfde zijn. Als dus bijvoorbeeld de personen Henk de Vries en Henk de Ruiter

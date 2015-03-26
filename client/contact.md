@@ -15,7 +15,7 @@ Soms kan het echter handig zijn om via het systeem te mailen. Zeker wanneer er i
 het systeem diverse handvatten om eenvoudig de leden van een groep of de debiteuren voor bepaalde facturen snel, eenvoudig
 en gepersonaliseerd te mailen.
 
-#### <a class="anchor" id="mailmerge"></a>Mailmerge velden
+####<a class="anchor" name="mailmerge"></a> Mailmerge velden
 Als er een e-mail wordt opgesteld naar meerdere personen, bijvoorbeeld alle deelnemers van een bepaald evenement, kan
 er bij het opstellen van de e-mail gebruik worden gemaakt van mailmerge velden. Zodra de betreffende personen naar het
 veld "Contact" in het communibase menu gesleept worden, verschijnt de vraag "Wilt u de e-mail personaliseren?". Als er
@@ -36,7 +36,7 @@ In de lijst die dan verschijnt kan de juiste waarde worden gekozen. Als de gebru
 selecteren in de lijst, worden de waardes in de lijst aangepast aan wat de gebruiker al heeft getypt. Als een gebruiker
 bijvoorbeeld al "invoice" heeft ingetypt, zullen er alleen nog maar waardes beginnend met "invoice" worden laten zien.
 
-#### Mailen naar personen, leden, deelnemers, debiteuren.
+####<a class="anchor" name="mailen"></a> Mailen naar personen, leden, deelnemers, debiteuren.
 Buiten de "normale" manier om e-mails te maken en verzenden (bij het tabblad "Contact" een nieuwe e-mail toevoegen),
 kunnen er ook objecten naar het Contact veld in het Communilinks menu gesleept worden. Deze handeling heeft verschillende
 gevolgen aan de hand van welk type objecten er naar het veld gesleept worden. Als er personen gesleept worden, zal de e-mail
@@ -46,12 +46,12 @@ de leden (personen of bedrijven) en de debiteuren van deze groepsdeelname gecont
 gesleept worden, zullen de verschillende deelnemers (en deelnemers van de sessies) een e-mail ontvangen. Tot slot kan
 ook een factuur naar het Contact-veld gesleept worden en dan zal de debiteur van deze factuur een bericht krijgen.
 
-#### Mailsync
+####<a class="anchor" name="sync"></a> Mailsync
 Mocht je ook de mail uit één of meer e-mailboxen in de administratie willen hebben, kan er een zogenaamde mailbox koppeling
 worden geïnstalleerd. Deze zorgt ervoor dat e-mail uit bepaalde mailboxen automatisch wordt uitgelezen en gesynchroniseerd
 naar Communibase. Neem contact op met Kingsquare voor de mogelijkheden.
 
-#### Wizard
+####<a class="anchor" name="wizard"></a> Wizard
 Als er contact wordt opgenomen met bijvoorbeeld een debiteur voor een factuur, dan komt de gebruiker terecht in een
 wizard voor het maken van contact. Als een of meer facturen gesleept worden naar het veld "Contact" en
 nog niet alle facturen zijn nog niet "Definitief" gemaakt, dan verschijnt eerste de vraag "Wilt u deze facturen definitief
