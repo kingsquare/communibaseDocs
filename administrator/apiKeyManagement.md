@@ -11,7 +11,7 @@ elke afzonderlijke administratie, een API sleutel om eenvoudig te aan te tonen d
 Deze API sleutel wordt dan meegegeven aan de administratie, om te voorkomen dat de gebruiker voor elke nieuwe pagina opnieuw
 moet inloggen en het maakt de website dus een stuk sneller!
 
-####<a class="anchor" name="rechtensysteem"> Het rechtensysteem
+####<a class="anchor" name="rechtensysteem"></a> Het rechtensysteem
 In Communibase wordt met het rechtensysteem bedoelt, dat gebruikers "rechten" kunnen hebben die ervoor zorgen
 dat ze toegang hebben tot bepaalde administraties. Zo kan toegang tot administraties worden verleend aan gebruikers door
 een administrator en ook kan toegang tot een administratie weer worden opgeheven. Dit kan worden gedaan in de "Communibase
@@ -22,7 +22,7 @@ Voor elke toegang die een gebruiker heeft, wordt een aparte API sleutel aangemaa
 dus recht om de administratie te bekijken en er veranderingen op te maken. Zo ontstaat dus het rechtensysteem, waarbij
 verschillende gebruikers een andere administratietoegang kunnen hebben.
 
-####<a class="anchor" name="nieuwesleutel"> Een nieuwe API sleutel maken
+####<a class="anchor" name="nieuwesleutel"></a> Een nieuwe API sleutel maken
 Als een gebruiker toegang krijgt tot een administratie en daar in logt, dan wordt er automatisch een API sleutel voor
 deze gebruiker en administratie aangemaakt. Dit is de meest eenvoudige manier om een API sleutel aan te maken en deze
 manier zal ook het meest gebruikt worden. Het kan echter ook handmatig.

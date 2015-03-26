@@ -20,7 +20,7 @@ entiteit toevoegen, wijzigen, verwijderen, kopieren en bulkwijzigen.
 __LET OP__: Zodra een entiteit is veranderd of verwijderd, heeft dit eventueel invloed op ALLE documenten. Denk hier over na
 voordat je hier wijzigingen in aanbrengt.
 
-####<a class="anchor" name="uitleg"> Wat betekenen de diverse onderdelen van het formulier?
+####<a class="anchor" name="uitleg"></a> Wat betekenen de diverse onderdelen van het formulier?
 Als je een nieuwe entiteit aanmaakt of een oude wijzigt, komt je in een formulier met verschillende onderdelen.
 Ten eerste zijn er vier kenmerken om in te vullen: 'Titel', 'Beschrijving', 'Systeemonderdeel' en 'Directe informatiebron'.
 De tabel hieronder heeft een beschrijving van deze kenmerken:
