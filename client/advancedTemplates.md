@@ -10,7 +10,7 @@ Voor het opmaken van facturen, e-mails en brieven wordt HTML als opmaaktaal gebr
 opgesteld op basis van HTML opmaak instructies. Dit maakt het inrichten van opmaak zo eenduidig en eenvoudig mogelijk. Voor
 gevanceerde functies van sjablonen is (enige) ervaring met HTML een pré.
 
-Bovenop de opmaak-taal HTML wordt gebruik gemaakt van de sjabloon-taal "Handlebars". In het hoofdstuk [Contact met leden](/client/contact/#mailmerge)
+Bovenop de opmaak-taal HTML wordt gebruik gemaakt van de sjabloon-taal ```Handlebars```. In het hoofdstuk [Contact met leden](/client/contact/#mailmerge)
 is de basis-werking reeds besproken. Voor meer informatie over de inhoudelijke werking kunt u terecht op de website van het
 [Handlebars project](http://handlebarsjs.com/). Experimenteren met constructies kan via [een speciale site](http://tryhandlebarsjs.com/)
 
@@ -24,7 +24,7 @@ Eenvoudige als-dan controles kunt u doen via {{ "{{ #if " }}}}. Bekijk het volge
         L.s.
     {{ "{{/if" }}}}
 
-Wanneer in uw e-mail, factuur of brief er een bekende "firstName" door het systeem kan worden bepaald (bijv. Karin), zal de
+Wanneer in uw e-mail, factuur of brief er een bekende ```firstName``` door het systeem kan worden bepaald (bijv. ```Karin```), zal de
 uitvoer in het document zijn:
 
 Hoi Karin,
@@ -46,15 +46,15 @@ kan een uitgebreidere help-functie worden gebruikt welke in de Communibase Clien
         Deze factuur wordt geincasseerd.
     {{ "{{/compare"}}}}
 
-In dit geval wordt de zin "Deze factuur wordt geincasseert." alleen getoond, wanneer het veld "paymentType" in een bepaalde
-context de waarde "directDebit" bevat. Er is ook nog geavanceerder gebruik mogelijk, bijvoorbeeld:
+In dit geval wordt de zin ```Deze factuur wordt geincasseerd.``` alleen getoond, wanneer het veld ```paymentType``` in een bepaalde
+context de waarde ```directDebit``` bevat. Er is ook nog geavanceerder gebruik mogelijk, bijvoorbeeld:
 
     {{ "{{#compare openAmount 'gt' 100 "}}}}
         Deelbetaling is mogelijk
     {{ "{{/compare" }}}}
 
 Dit maakt het mogelijk om, bijvoorbeeld op een factuur, bij een totaalbedrag van meer dan 100 euro de melding
-"Deelbetaling is mogelijk" op de factuur op te nemen.
+```Deelbetaling is mogelijk``` op de factuur op te nemen.
 
 #####<a class="anchor" name="lijst"></a> Lijst operatoren
 
@@ -132,16 +132,16 @@ gebruikt. Hiervoor is ook een help-functie ingericht:
 
     Uw lidmaatschap begon op {{ "{{dateFormat startDate" }}}}
 
-Soms is het wenselijk om een datum als "tot-en-met" weer te geven. Een lidmaatschap kan bijvoorbeeld lopen tot 1 januari
-van het volgende jaar, maar het kan dan wenselijk zijn om iets weer te geven als "tot en met 31 december". In dat geval
+Soms is het wenselijk om een datum als ```tot-en-met``` weer te geven. Een lidmaatschap kan bijvoorbeeld lopen tot 1 januari
+van het volgende jaar, maar het kan dan wenselijk zijn om iets weer te geven als ```tot en met 31 december```. In dat geval
 kunt gebruik maken van de volgende notatie.
 
     Uw lidmaatschap verloopt op {{ "{{untilDateFormat endDate" }}}}
 
 Plaatst bijvoorbeeld in een sjabloon voor bijvoorbeeld een brief n.a.v. een lidmaatschap, de nederlandse notatie van de
-startdatum van een lidmaatschap. Alternatieve notatie is mogelijk als volgt:
+startdatum van een lidmaatschap (bijv. ```1 januari 2015``` ). Alternatieve notatie is mogelijk als volgt:
 
-    Your membership started {{ "{{dateFormat startDate format='M Y'" }}}}
+    Your membership started {{ "{{dateFormat startDate format='j F Y'" }}}}
 
 
 Formaatcodes zijn als volgt te gebruiken:
@@ -243,4 +243,4 @@ nemen;
 
 Achter de termen top, left, bottom en right kunt u respectievelijk de marges opgeven in pixels welke bij het printen op
 .pdf, per blad zouden moeten worden gehanteerd. U kunt het blokje code op een willekeurige plaats neerzetten, bijvoorbeeld
-direct na de < body >-tag.
+direct na de ```<body>```-tag.

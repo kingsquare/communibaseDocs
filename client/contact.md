@@ -18,8 +18,8 @@ en gepersonaliseerd te mailen.
 ####<a class="anchor" name="mailmerge"></a> Mailmerge velden
 Als er een e-mail wordt opgesteld naar meerdere personen, bijvoorbeeld alle deelnemers van een bepaald evenement, kan
 er bij het opstellen van de e-mail gebruik worden gemaakt van mailmerge velden. Zodra de betreffende personen naar het
-veld "Contact" in het communibase menu gesleept worden, verschijnt de vraag "Wilt u de e-mail personaliseren?". Als er
-wordt gekozen voor "Ja", en vervolgens voor "Volgende stap", ziet de gebruiker een voorbeeld e-mail. Dit ziet er
+veld ```Contact``` in het communibase menu gesleept worden, verschijnt de vraag ```Wilt u de e-mail personaliseren?```. Als er
+wordt gekozen voor ```Ja```, en vervolgens voor ```Volgende stap```, ziet de gebruiker een voorbeeld e-mail. Dit ziet er
 bijvoorbeeld als volgt uit:
 
 ![Screenshot mailmerge](/assets/img/mailmerge.png)
@@ -34,10 +34,10 @@ door op de toverstaf te drukken in het menu.
 
 In de lijst die dan verschijnt kan de juiste waarde worden gekozen. Als de gebruiker begint te typen zonder iets te
 selecteren in de lijst, worden de waardes in de lijst aangepast aan wat de gebruiker al heeft getypt. Als een gebruiker
-bijvoorbeeld al "invoice" heeft ingetypt, zullen er alleen nog maar waardes beginnend met "invoice" worden laten zien.
+bijvoorbeeld al ```invoice``` heeft ingetypt, zullen er alleen nog maar waardes beginnend met ```invoice``` worden laten zien.
 
 ####<a class="anchor" name="mailen"></a> Mailen naar personen, leden, deelnemers, debiteuren.
-Buiten de "normale" manier om e-mails te maken en verzenden (bij het tabblad "Contact" een nieuwe e-mail toevoegen),
+Buiten de "normale" manier om e-mails te maken en verzenden (bij het tabblad ```Contact``` een nieuwe e-mail toevoegen),
 kunnen er ook objecten naar het Contact veld in het Communilinks menu gesleept worden. Deze handeling heeft verschillende
 gevolgen aan de hand van welk type objecten er naar het veld gesleept worden. Als er personen gesleept worden, zal de e-mail
 (vanzelfsprekend) naar het favoriete e-mail adres van deze personen gestuurd worden. Als dit het geval is bij bedrijven,
@@ -53,9 +53,9 @@ naar Communibase. Neem contact op met Kingsquare voor de mogelijkheden.
 
 ####<a class="anchor" name="wizard"></a> Wizard
 Als er contact wordt opgenomen met bijvoorbeeld een debiteur voor een factuur, dan komt de gebruiker terecht in een
-wizard voor het maken van contact. Als een of meer facturen gesleept worden naar het veld "Contact" en
-nog niet alle facturen zijn nog niet "Definitief" gemaakt, dan verschijnt eerste de vraag "Wilt u deze facturen definitief
-maken voordat deze naar de debiteur worden verstuurd?". Het wordt aangeraden om de factuur eerst definitief te maken,
+wizard voor het maken van contact. Als een of meer facturen gesleept worden naar het veld ```Contact``` en
+nog niet alle facturen zijn nog niet ```Definitief``` gemaakt, dan verschijnt eerste de vraag ```Wilt u deze facturen definitief
+maken voordat deze naar de debiteur worden verstuurd?```. Het wordt aangeraden om de factuur eerst definitief te maken,
 maar dit is niet noodzakelijk om de e-mail te kunnen versturen. Als u niet de factuur definitief maakt, betreft het
 "proforma"-facturen.
 
@@ -63,8 +63,8 @@ Vervolgens verschijnt er een nieuw menu met verschillende mogelijke acties:
 
 ![Screenshot factuur wizard](/assets/img/contactActieMenu.png)
 
-Als er wordt gekozen voor "Verstuur factuur per e-mail", dan komt de gebruiker in een voorbeeld e-mail waarin gebruik
-gemaakt kan worden van mailmerge velden (zie hierboven). Voor de tweede optie "Verstuur factuur per post" geldt hetzelfde,
+Als er wordt gekozen voor ```Verstuur factuur per e-mail```, dan komt de gebruiker in een voorbeeld e-mail waarin gebruik
+gemaakt kan worden van mailmerge velden (zie hierboven). Voor de tweede optie ```Verstuur factuur per post``` geldt hetzelfde,
 alleen zal er dan geen e-mail opgesteld worden, maar een pdf die uitgeprint en verstuurd kan worden. Tot slot kan er
-nog gekozen worden voor "Verstuur factuur volgens voorkeur debiteur" en dan zal de voorkeursmedium van de debiteur
+nog gekozen worden voor ```Verstuur factuur volgens voorkeur debiteur``` en dan zal de voorkeursmedium van de debiteur
 gebruikt worden om te beslissen welk medium gebruikt wordt voor het contact.
