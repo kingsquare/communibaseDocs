@@ -141,67 +141,68 @@ kunt gebruik maken van de volgende notatie.
 Plaatst bijvoorbeeld in een sjabloon voor bijvoorbeeld een brief n.a.v. een lidmaatschap, de nederlandse notatie van de
 startdatum van een lidmaatschap (bijv. ```1 januari 2015``` ). Alternatieve notatie is mogelijk als volgt:
 
-    Your membership started {{ "{{dateFormat startDate format='j F Y'" }}}}
+    Your membership started {{ "{{dateFormat startDate format='D MMMM YYYY'" }}}}
 
 
 Formaatcodes zijn als volgt te gebruiken:
 
-    Format      Description                                                               Example returned values
-    ------      -----------------------------------------------------------------------   -----------------------
-      d         Day of the month, 2 digits with leading zeros                             01 to 31
-      D         A short textual representation of the day of the week                     Mon to Sun
-      j         Day of the month without leading zeros                                    1 to 31
-      l         A full textual representation of the day of the week                      Sunday to Saturday
-      N         ISO-8601 numeric representation of the day of the week                    1 (for Monday) through 7 (for Sunday)
-      S         English ordinal suffix for the day of the month, 2 characters             st, nd, rd or th. Works well with j
-      w         Numeric representation of the day of the week                             0 (for Sunday) to 6 (for Saturday)
-      z         The day of the year (starting from 0)                                     0 to 364 (365 in leap years)
-      W         ISO-8601 week number of year, weeks starting on Monday                    01 to 53
-      F         A full textual representation of a month, such as January or March        January to December
-      m         Numeric representation of a month, with leading zeros                     01 to 12
-      M         A short textual representation of a month                                 Jan to Dec
-      n         Numeric representation of a month, without leading zeros                  1 to 12
-      t         Number of days in the given month                                         28 to 31
-      L         Whether it's a leap year                                                  1 if it is a leap year, 0 otherwise.
-      o         ISO-8601 year number (identical to (Y), but if the ISO week number (W)    Examples: 1998 or 2004
-                belongs to the previous or next year, that year is used instead)
-      Y         A full numeric representation of a year, 4 digits                         Examples: 1999 or 2003
-      y         A two digit representation of a year                                      Examples: 99 or 03
-      a         Lowercase Ante meridiem and Post meridiem                                 am or pm
-      A         Uppercase Ante meridiem and Post meridiem                                 AM or PM
-      g         12-hour format of an hour without leading zeros                           1 to 12
-      G         24-hour format of an hour without leading zeros                           0 to 23
-      h         12-hour format of an hour with leading zeros                              01 to 12
-      H         24-hour format of an hour with leading zeros                              00 to 23
-      i         Minutes, with leading zeros                                               00 to 59
-      s         Seconds, with leading zeros                                               00 to 59
-      u         Decimal fraction of a second                                              Examples:
-                (minimum 1 digit, arbitrary number of digits allowed)                     001 (i.e. 0.001s) or
-                                                                                          100 (i.e. 0.100s) or
-                                                                                          999 (i.e. 0.999s) or
-                                                                                          999876543210 (i.e. 0.999876543210s)
-      O         Difference to Greenwich time (GMT) in hours and minutes                   Example: +1030
-      P         Difference to Greenwich time (GMT) with colon between hours and minutes   Example: -08:00
-      T         Timezone abbreviation of the machine running the code                     Examples: EST, MDT, PDT ...
-      Z         Timezone offset in seconds (negative if west of UTC, positive if east)    -43200 to 50400
-      c         ISO 8601 date
-                Notes:                                                                    Examples:
-                1) If unspecified, the month / day defaults to the current month / day,   1991 or
-                   the time defaults to midnight, while the timezone defaults to the      1992-10 or
-                   browser's timezone. If a time is specified, it must include both hours 1993-09-20 or
-                   and minutes. The "T" delimiter, seconds, milliseconds and timezone     1994-08-19T16:20+01:00 or
-                   are optional.                                                          1995-07-18T17:21:28-02:00 or
-                2) The decimal fraction of a second, if specified, must contain at        1996-06-17T18:22:29.98765+03:00 or
-                   least 1 digit (there is no limit to the maximum number                 1997-05-16T19:23:30,12345-0400 or
-                   of digits allowed), and may be delimited by either a '.' or a ','      1998-04-15T20:24:31.2468Z or
-                Refer to the examples on the right for the various levels of              1999-03-14T20:24:32Z or
-                date-time granularity which are supported, or see                         2000-02-13T21:25:33
-                http://www.w3.org/TR/NOTE-datetime for more info.                         2001-01-12 22:26:34
-      U         Seconds since the Unix Epoch (January 1 1970 00:00:00 GMT)                1193432466 or -2138434463
-      MS        Microsoft AJAX serialized dates                                           \/Date(1238606590509)\/ (i.e. UTC milliseconds since epoch) or
-                                                                                          \/Date(1238606590509+0800)\/
-      time      A javascript millisecond timestamp                                        1350024476440
-      timestamp A UNIX timestamp (same as U)                                              1350024866
+|| Token|Output|
+|--- |--- | -- |
+|Month|M|1 2 ... 11 12|
+||Mo|1st 2nd ... 11th 12th|
+||MM|01 02 ... 11 12|
+||MMM|Jan Feb ... Nov Dec|
+||MMMM|January February ... November December|
+|Quarter|Q|1 2 3 4|
+||Qo|1st 2nd 3rd 4th|
+|Day of Month|D|1 2 ... 30 31|
+||Do|1st 2nd ... 30th 31st|
+||DD|01 02 ... 30 31|
+|Day of Year|DDD|1 2 ... 364 365|
+||DDDo|1st 2nd ... 364th 365th|
+||DDDD|001 002 ... 364 365|
+|Day of Week|d|0 1 ... 5 6|
+||do|0th 1st ... 5th 6th|
+||dd|Su Mo ... Fr Sa|
+||ddd|Sun Mon ... Fri Sat|
+||dddd|Sunday Monday ... Friday Saturday|
+|Day of Week (Locale)|e|0 1 ... 5 6|
+|Day of Week (ISO)|E|1 2 ... 6 7|
+|Week of Year|w|1 2 ... 52 53|
+||wo|1st 2nd ... 52nd 53rd|
+||ww|01 02 ... 52 53|
+|Week of Year (ISO)|W|1 2 ... 52 53|
+||Wo|1st 2nd ... 52nd 53rd|
+||WW|01 02 ... 52 53|
+|Year|YY|70 71 ... 29 30|
+||YYYY|1970 1971 ... 2029 2030|
+||Y|1970 1971 ... 9999 +10000 +10001|
+|Week Year|gg|70 71 ... 29 30|
+||gggg|1970 1971 ... 2029 2030|
+|Week Year (ISO)|GG|70 71 ... 29 30|
+||GGGG|1970 1971 ... 2029 2030|
+|AM/PM|A|AM PM|
+||a|am pm|
+|Hour|H|0 1 ... 22 23|
+||HH|00 01 ... 22 23|
+||h|1 2 ... 11 12|
+||hh|01 02 ... 11 12|
+||k|1 2 ... 23 24|
+||kk|01 02 ... 23 24|
+|Minute|m|0 1 ... 58 59|
+||mm|00 01 ... 58 59|
+|Second|s|0 1 ... 58 59|
+||ss|00 01 ... 58 59|
+|Fractional Second|S|0 1 ... 8 9|
+||SS|00 01 ... 98 99|
+||SSS|000 001 ... 998 999|
+||SSSS ... SSSSSSSSS|000[0..] 001[0..] ... 998[0..] 999[0..]|
+|Time Zone|z or zz|EST CST ... MST PST|
+||Z|-07:00 -06:00 ... +06:00 +07:00|
+||ZZ|-0700 -0600 ... +0600 +0700|
+|Unix Timestamp|X|1360013296|
+|Unix Millisecond Timestamp|x|1360013296123|
+
 
 
 ####<a class="anchor" name="prijs"></a> Prijsvelden
