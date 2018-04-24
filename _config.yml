@@ -1,4 +1,3 @@
-markdown: rdiscount
 highlighter: pygments
 permalink: pretty
 destination: /tmp/app
