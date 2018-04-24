@@ -45,4 +45,4 @@ Het beste kun je kijken naar een bestaand lidmaatschap waarbij het is ingevuld, 
 
 Om te weten welk adres het betreft zal dus eerst dit persoon-document moeten worden opgevraagd. Normaal gesproken is dit de persoon van wie het lidmaatschap is. Daarna kan binnen dit "Persoon"-document het gevraagde adres worden opgezocht. Dat werkt met het laatste kenmerk "addressReference.documentReference.path". Deze beschrijft de stappen binnen het persoon-document welke moeten worden doorlopen om tot het adres te komen. In dit voorbeeld zal dus in de "addresses" - lijst gezocht moeten worden naar het adres met id-nummer "557951db261c1c094d000001".
 
- De logica voor het "opzoeken" van de data achter verwijzingen is ook verwerkt in de verschillende [http://docs.communibase.nl/api#voorbeeldcode]("connectors")
+ De logica voor het "opzoeken" van de data achter verwijzingen is ook verwerkt in de verschillende [connectors](http://docs.communibase.nl/api#voorbeeldcode)
