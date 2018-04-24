@@ -1,4 +1,4 @@
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 destination: /tmp/app
 host: 0.0.0.0
